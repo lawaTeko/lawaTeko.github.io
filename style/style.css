@@ -23,3 +23,15 @@
 section {
   padding-top: 5rem;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 5px;
+  }
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+}
