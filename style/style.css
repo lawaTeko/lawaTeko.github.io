@@ -3,6 +3,30 @@
   background-color: #eaeaea;
 }
 
+/* for icons on navbar */
+.sm-icons {
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.sm-icons .nav-link {
+  padding-right: 1em;
+}
+
+.sm-icons .nav-link .bi-instagram:hover {
+  color: #f72a6e;
+}
+
+.sm-icons .nav-link .bi-facebook:hover {
+  color: #3b70f4;
+}
+
+.sm-icons .nav-link .bi-github:hover {
+  color: #ffffff;
+}
+
+/* end */
+
 .jumbotron h1 {
   margin-top: 130px;
 }
