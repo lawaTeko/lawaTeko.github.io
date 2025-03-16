@@ -39,6 +39,11 @@
   transition: 0.3s;
 }
 
+.navbar-nav .nav-link,
+a {
+  margin-right: 15px;
+}
+
 .jumbotron h1 {
   margin-top: 130px;
 }
@@ -69,6 +74,11 @@ section {
 .subButton:hover {
   background-color: #3b70f4;
   color: #ffffff;
+}
+
+.bi:hover {
+  color: red;
+  transition: 1s;
 }
 
 @media (max-width: 768px) {
