@@ -1,8 +1,19 @@
-/* Untuk Font Roboto */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* font link */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+/* font style */
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+
+.logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 1s;
+}
+
+.logo:hover {
+  rotate: 360deg;
+  transition: 2s;
 }
 
 .jumbotron {
@@ -41,7 +52,7 @@
 
 .navbar-nav .nav-link,
 a {
-  margin-right: 15px;
+  margin-right: 11px;
 }
 
 .jumbotron h1 {
